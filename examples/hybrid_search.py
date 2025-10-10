@@ -6,11 +6,12 @@ Demonstrates using hybrid search (combining vector + full-text search).
 
 import asyncio
 import os
+
 from dotenv import load_dotenv
 
 load_dotenv()
 
-from easyrag import RAGService
+from easyrag import RAGService  # noqa: E402
 
 
 async def compare_search_methods():
