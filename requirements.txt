@@ -1,0 +1,11 @@
+# Core dependencies
+supabase>=2.0.0
+openai>=1.0.0
+httpx>=0.24.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+
+# Optional: Reranking support (uncomment if needed)
+# sentence-transformers>=2.2.0
+# torch>=2.0.0
